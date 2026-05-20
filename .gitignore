@@ -27,3 +27,6 @@
 /tmp/storage/*
 !/tmp/storage/
 !/tmp/storage/.keep
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/mcp-calls.log

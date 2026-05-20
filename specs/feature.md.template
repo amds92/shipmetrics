@@ -1,0 +1,37 @@
+# Feature: [Name]
+
+## Problem
+[What problem does this solve?]
+
+## Behaviour
+- [ ] [Expected behaviour 1]
+- [ ] [Expected behaviour 2]
+
+## API Contract
+**Endpoint**: `[METHOD] /api/v1/[path]`
+
+**Auth**: JWT required (header: `Authorization: Bearer <token>`)
+
+**Request**:
+```json
+{}
+```
+
+**Response** (`200 OK`):
+```json
+{}
+```
+
+**Error responses**:
+- `401 Unauthorized` — missing or invalid JWT
+- `422 Unprocessable Entity` — validation failure
+
+## DORA metric affected
+<!-- deployment_frequency | lead_time_for_changes | change_failure_rate | time_to_restore | none -->
+
+## Service / Query objects needed
+- `app/services/` — [ServiceName] — [what it does]
+- `app/queries/` — [QueryName] — [what it does]
+
+## Notes
+- [Constraints, edge cases, GitHub API considerations, rate limit concerns]
